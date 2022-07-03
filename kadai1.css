@@ -72,5 +72,18 @@ footer {
 
 @media screen and (max-width:768px){
 
-/*7/4はここから、ブラウザの検証機能でチェック外したりしながら考える。*/
+  main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .step-box {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .step-box:nth-child(3) {
+    margin:auto;
+  }
+
 }
